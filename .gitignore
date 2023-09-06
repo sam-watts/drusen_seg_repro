@@ -1,2 +1,7 @@
 saved_model/DeepLab
 saved_model/main_model
+*.zip
+data
+*.pth
+*.h5
+.DS_store

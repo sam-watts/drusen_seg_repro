@@ -1,0 +1,13 @@
+albumentations
+ipython
+ipykernel
+matplotlib
+opencv-python
+pandas
+papermill
+pillow
+torch~=1.2
+torchvision~=0.4
+scikit-image
+scikit-learn
+tqdm

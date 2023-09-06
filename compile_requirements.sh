@@ -1,0 +1,1 @@
+docker run -v $HOME/repos/scone-edi/drusen-seg-inpainting:/opt python:3.7 /bin/bash -c 'pip install pip-tools && pip-compile --resolver=backtracking opt/swatts-repro/requirements_drusen_seg.in'
