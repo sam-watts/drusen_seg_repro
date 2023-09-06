@@ -1,5 +1,5 @@
 docker build -t drusen-seg-inference . && \
-DOCKER_BUILDKIT=1 docker run drusen-seg-inference \
-    baseline \
-    -v $PWD/outputs:/outputs \
-    -v $PWD/data:/data \
+DOCKER_BUILDKIT=1 docker run \
+    -v ${PWD}/../outputs:/opt/outputs \
+    -v ${PWD}/../data:/opt/data \
+    drusen-seg-inference \
